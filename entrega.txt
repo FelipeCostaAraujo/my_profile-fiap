@@ -1,11 +1,5 @@
-var alunos:Aluno = [
-	Aluno(name:"Felipe Costa Araújo",rm: "346499"),
-	]; 
+name:"Felipe Costa Araújo"
+rm: "346499"
+url do projeto: https://github.com/FelipeCostaAraujo/my_profile-fiap
+sem o expo estou com problemas de compilacao iOS e android;
 
-var response = await http.get("https://github.com/FelipeCostaAraujo/my_profile-fiap");
-
-var nota = calNota(response.body);
-
-console.log(nota);
-
--> 10 😎
